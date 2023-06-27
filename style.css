@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+body{
+    /* text-align: center; */
+    position: relative;
+    padding: 1rem 2rem;
+}
+.animals{
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgba(128, 0, 128, 0.651);
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    position: sticky;
+    top: 5px;
+    right: 25%;
+    z-index: 1;
+
+}
+img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    gap: 1rem;
+}
+.images{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px 8px;
+    position: sticky;
+    /* bottom: 2%;
+    left: 93%; */
+
+}
+html{
+    scroll-behavior:smooth;
+}
+
+
+.small{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    position: sticky;
+    font-size: 2rem;
+    top: 3%;
+    right: 90%;
+
+   
+}
+div{
+    text-align: center;
+}
+.WILD{
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
